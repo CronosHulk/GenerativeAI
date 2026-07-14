@@ -1,8 +1,6 @@
-langchain
-langchain-core
-ollama
-langchain-ollama
-pypdf
-Flask
 fastapi
 uvicorn
+langchain
+langchain-core
+langchain-ollama
+ollama

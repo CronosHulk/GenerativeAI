@@ -1,8 +1,5 @@
+Flask
 langchain
 langchain-core
-ollama
 langchain-ollama
-pypdf
-Flask
-fastapi
-uvicorn
+ollama
