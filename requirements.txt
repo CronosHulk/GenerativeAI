@@ -1,0 +1,7 @@
+ibm-watsonx-ai
+langchain
+langchain-ibm
+langchain-core
+openai
+ollama
+langchain-ollama
