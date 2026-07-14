@@ -1,0 +1,9 @@
+LangChain is an application framework for building systems powered by language models. Its core idea is composition: prompts, models, parsers, retrievers, tools, and memory components can be connected into reusable workflows.
+
+The LangChain Expression Language, often called LCEL, represents workflows as runnable components. A prompt can be piped into a model, and the model output can be piped into a parser. RunnableParallel can execute independent branches at the same time, while normal pipe composition creates sequential chains.
+
+Documents are represented as objects with page content and metadata. Loaders bring content into Document objects from files, web pages, PDFs, databases, or APIs. Text splitters divide long documents into smaller chunks so retrieval systems can index and search them efficiently.
+
+Retrievers return relevant documents for a query. Vector stores use embedding models to convert text into vectors and search by semantic similarity. A retrieval augmented generation chain usually retrieves context, formats it, injects it into a prompt, and asks a model to answer using only that context.
+
+LangChain agents combine a language model with tools. The model decides which tool to call, observes the result, and continues until it can answer the user. Memory and chat history can preserve context across multiple turns in a conversation.

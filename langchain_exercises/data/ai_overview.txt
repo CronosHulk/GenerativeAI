@@ -1,0 +1,9 @@
+Artificial intelligence is a broad field focused on building systems that can perform tasks that normally require human intelligence. Common AI capabilities include perception, language understanding, reasoning, planning, prediction, and decision support.
+
+Machine learning is a major branch of AI. Instead of being programmed with every rule by hand, machine learning systems learn patterns from data. Neural networks are a popular family of machine learning models inspired by layered computation. A neural network usually contains input layers, hidden layers, output layers, weights, biases, activation functions, and an optimization process that updates parameters during training.
+
+Generative AI is a category of AI that can create new content such as text, images, code, audio, or structured data. Large language models are generative AI models trained on large text corpora. They predict useful continuations of text and can be adapted for chat, summarization, question answering, extraction, and reasoning workflows.
+
+Retrieval augmented generation combines search with generation. A retrieval system first finds relevant document chunks, then passes those chunks to a language model so the model can answer with context from the source material. This approach is useful when the model needs current, private, or domain-specific information.
+
+Responsible AI practices are important when building AI applications. Teams should evaluate accuracy, robustness, privacy, security, bias, explainability, and human oversight. Good AI systems are designed around clear user needs and measured against real-world outcomes.

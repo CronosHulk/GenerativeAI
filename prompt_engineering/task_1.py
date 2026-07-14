@@ -11,7 +11,7 @@ llm = ChatOllama(
 
 prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", "Ты полезный ассистент. Отвечай кратко и по делу."),
+        ("system", "Ти корисний асистент. Відповідай коротко і по суті."),
         ("human", "{question}"),
     ]
 )
@@ -21,7 +21,7 @@ chain = prompt | llm | StrOutputParser()
 
 if __name__ == "__main__":
     questions = [
-        "Привет! Объясни простыми словами, что такое LangChain.",
+        "Привіт! Поясни простими словами, що таке LangChain.",
         "The future of artificial intelligence is",
         "Once upon a time in a distant galaxy",
         "The benefits of sustainable energy include",
