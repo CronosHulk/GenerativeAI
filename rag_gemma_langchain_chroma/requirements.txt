@@ -1,0 +1,8 @@
+langchain
+langchain-core
+langchain-ollama
+langchain-text-splitters
+chromadb
+requests
+python-dotenv
+gradio

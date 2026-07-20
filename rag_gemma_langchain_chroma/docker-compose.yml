@@ -1,0 +1,11 @@
+services:
+  chroma:
+    image: chromadb/chroma:latest
+    container_name: rag-gemma-chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_storage:/chroma/chroma
+
+volumes:
+  chroma_storage:
